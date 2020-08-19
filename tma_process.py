@@ -12,9 +12,9 @@ import matplotlib.pyplot as plt
 class TMA_processFile:
 
     def __init__(self):
-        self.csvname = 'M:/Stephanie Harmon/Queens_PTEN/tma_external_info.txt'
-        self.data_location = 'M:/Stephanie Harmon/Queens_PTEN/raw/external/raw'
-        self.save_location = 'M:/Stephanie Harmon/Queens_PTEN/classification/external'
+        self.csvname = '/path/to/info/file/tma_external_info.txt' #this file contains tma location and outcome as csv
+        self.data_location = '/location/of/raw/data'
+        self.save_location = '/location/of/saving/data'
         self.tma_size = (2000,2000)
         self.base_size = 100
 
